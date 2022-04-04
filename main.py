@@ -6,7 +6,7 @@ from youtube_dl import YoutubeDL
 
 def start_webdriver():
     options = Options()
-    options.headless = False
+    options.headless = True
     driver = webdriver.Chrome(options=options)
     return driver
 
